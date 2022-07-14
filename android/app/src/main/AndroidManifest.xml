@@ -33,6 +33,5 @@
    <meta-data
      android:name="com.google.android.geo.API_KEY"
      android:value="AIzaSyAvMbG9aP_j_39rknHkFcgdLuMBXXwWNQQ"/>
-     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
   </application>
 </manifest>
