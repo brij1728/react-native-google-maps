@@ -20,7 +20,7 @@ export const ClusterMarker = ({
     setActiveMarker(marker);
   };
   return (
-    <View style={styles.container}>
+    <View>
       <MapView
         style={styles.map}
         provider={PROVIDER_GOOGLE}
@@ -39,9 +39,13 @@ const styles = StyleSheet.create({
     backgroundColor: "#fff",
     alignItems: "center",
     justifyContent: "center",
+    width: "100%",
+    height: "100%",
   },
   map: {
-    width: Dimensions.get("window").width,
-    height: Dimensions.get("window").height,
+    // width: Dimensions.get("window").width,
+    // height: Dimensions.get("window").height,
+    width: 400,
+    height: 500,
   },
 });
